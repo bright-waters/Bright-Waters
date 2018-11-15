@@ -1,4 +1,4 @@
-.example-card {
+.HomePicture-card {
     max-width: 100%;
   }
   .image{
@@ -7,4 +7,33 @@
    object-fit: cover;
   }
   
+  .HomeContent {
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  .HomeContentHeader{
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Feature-card{
+   
+    margin: 4px;
+    display: inline-block;
+   
+}
+.FeatureHeader{
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+  .example-card {
+    max-width: 400px;
+  }
   
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+ 
