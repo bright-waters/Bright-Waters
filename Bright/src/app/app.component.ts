@@ -15,7 +15,7 @@ export class AppComponent {
   title = 'app';
 
   navLinks= [
-    { path: 'home', label: "About"},
+    { path: 'home', label: "Home"},
     { path: 'about-us',label: "About Us" },
     { path: 'services', label: "Services"},
     { path: 'instructors',label: "Instructors"},
