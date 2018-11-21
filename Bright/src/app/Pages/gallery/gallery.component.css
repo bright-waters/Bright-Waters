@@ -1,0 +1,31 @@
+.HomeContentHeader{
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.HomeContent {
+  display: flex;
+  justify-content: center;
+
+}
+.image{
+  margin: 4px;
+  width: 30%;
+  display: inline-block;
+}
+
+.Testimonials{
+  width: 100%;
+}
+
+.DrivingSchoolCars{
+  width:100%;
+}
+
+.DrivingSchoolSafety{
+  width:100%;
+}
+
+.Category{
+  margin: 1%;
+  height: 30%;
+}

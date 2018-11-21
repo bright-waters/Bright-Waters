@@ -1,31 +1,15 @@
 
-  <div class="root__container" >
-      <header class="main__header">
-          <div class="sub__header">
-           
-                <svg class="logo__icon">
-                  <!-- logo svg code goes here-->
-                </svg>
-            
-            <div class="nav-bar">
-            <ul>
-                    <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" routerLink="about">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" routerLink="courses">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" routerLink="courses">Instructor</a></li>
-                    <li class="nav-item"><a class="nav-link" routerLink="courses">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" routerLink="courses">Contact Us</a></li>
-        </ul>
-    </div>
-</div>
-      </header>
- 
-      <app-home></app-home>
-      <footer class ="footer">
-            <div layout="row" layout-align="center center">
-                <h2>My Awesome Footer</h2>
-            </div>
-        </footer>
-  </div>
+
+<nav mat-tab-nav-bar>
+  <a mat-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="link.path"
+     routerLinkActive #rla="routerLinkActive"
+     [active]="rla.isActive">
+    {{link.label}}
+  </a>
+</nav>
+<router-outlet></router-outlet>
+
 
 

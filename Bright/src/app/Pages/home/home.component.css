@@ -1,39 +1,44 @@
 .HomePicture-card {
-    max-width: 100%;
+  max-width: 100%;
+  margin: 1%;
   }
+
   .image{
    width: 100%;
    height: 50vh;
    object-fit: cover;
+    margin: 0.5%;
   }
-  
+
+  .HomeContent-card{
+    margin: 1%;
+  }
   .HomeContent {
     display: flex;
     justify-content: center;
-   
+
   }
 
   .HomeContentHeader{
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-}
-.Feature-card{
-   
+  }
+  .Feature-card{
+
     margin: 4px;
     display: inline-block;
-   
-}
-.FeatureHeader{
+
+  }
+  .FeatureHeader{
     font-family:'Times New Roman', Times, serif;
-   
-}
+
+  }
 
   .example-card {
     max-width: 400px;
   }
-  
+
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   }
- 
