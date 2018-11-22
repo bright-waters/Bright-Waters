@@ -28,14 +28,7 @@
 
     left: 0;
   }
-  .footer{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:black;
-    color: white;
-    text-align: center;
-  }
+ 
   .sub__header {
     width: 125%;
     grid-template-columns: 1fr 1fr 0.25fr;
@@ -117,5 +110,7 @@ li a:hover:not(.active) {
     .slide-menu {
       width: 100%;
     }
+  
+  
 
   }

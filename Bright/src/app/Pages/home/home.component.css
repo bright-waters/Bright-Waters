@@ -16,7 +16,7 @@
   .HomeContent {
     display: flex;
     justify-content: center;
-
+   
   }
 
   .HomeContentHeader{
@@ -24,7 +24,6 @@
     font-family: 'Courier New', Courier, monospace;
   }
   .Feature-card{
-
     margin: 4px;
     display: inline-block;
 
