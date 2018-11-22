@@ -1,0 +1,22 @@
+.ServiceContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .ServiceContentHeader{
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Service-card{
+    border-radius: 20px;
+    border: 4px solid #5A9837;
+    display: inline-block;
+    flex: 1 0 25%;
+    margin: 30px;
+   
+}
+.ServiceHeader{
+    font-family:'Times New Roman', Times, serif;
+   
+}

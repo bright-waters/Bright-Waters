@@ -11,6 +11,9 @@ import {ContactComponent} from "./Pages/contact/contact.component";
 import {AboutComponent} from "./Pages/about/about.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {AppRoutingModule} from "./app-routing.module";
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import {AppRoutingModule} from "./app-routing.module";
     MatCardModule,
     MatTabsModule,
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
