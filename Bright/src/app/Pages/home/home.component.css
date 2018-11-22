@@ -4,14 +4,15 @@
   }
 
   .image{
-   width: 100%;
-   height: 50vh;
-   object-fit: cover;
-    margin: 0.5%;
+    margin: 0.2%;
+    width: 100%;
+    height: 50vh;;
+    object-fit: cover;
   }
 
   .HomeContent-card{
     margin: 1%;
+
   }
   .HomeContent {
     display: flex;

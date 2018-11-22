@@ -1,5 +1,8 @@
-
-
+<div class="row">
+  <div class="logo_space">
+  <img mat-card-image  class="logo__icon" src="./assets/logo1.jpeg">
+  </div>
+  <div class="tab_space">
 <nav mat-tab-nav-bar>
   <a mat-tab-link
      *ngFor="let link of navLinks"
@@ -9,7 +12,8 @@
     {{link.label}}
   </a>
 </nav>
+  </div>
+</div>
 <router-outlet></router-outlet>
-
 
 
