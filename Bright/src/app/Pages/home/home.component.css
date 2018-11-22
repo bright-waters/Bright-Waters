@@ -24,8 +24,12 @@
     font-family: 'Courier New', Courier, monospace;
   }
   .Feature-card{
-    margin: 4px;
+    border-radius: 20px;
+    margin: 15px;
     display: inline-block;
+    border: 4px solid #5A9837;
+    
+  
 
   }
   .FeatureHeader{
