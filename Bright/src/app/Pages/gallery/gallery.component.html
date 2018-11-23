@@ -1,12 +1,18 @@
+<div class="card">
+
 <mat-card>
 
-<mat-card  class="Category">
-  <mat-card-header class="HomeContentHeader" >
-    <mat-card-title><h1>Testimonials</h1></mat-card-title>
-  </mat-card-header>
+<mat-accordion>
 
-  <mat-card-content class="HomeContent">
-    <div class="Testimonials">
+  <mat-expansion-panel class="Category">
+  <mat-expansion-panel-header class="HomeContentHeader" >
+    <mat-panel-title><h1>Testimonials</h1></mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <mat-panel-description class="HomeContent">
+
+
+    <div class="Testimonials" >
     <img mat-card-image  class ="image" src="./assets/HappyClient5.jpeg">
 
     <img mat-card-image  class ="image" src="./assets/HappyClient6.jpeg">
@@ -14,47 +20,45 @@
     <img mat-card-image  class ="image" src="./assets/HAppyClient3.jpeg">
     </div>
 
+  </mat-panel-description>
+  </mat-expansion-panel>
 
-  </mat-card-content>
-  <mat-card-footer></mat-card-footer>
+  <mat-expansion-panel class="Category">
+    <mat-expansion-panel-header class="HomeContentHeader" >
+      <mat-panel-title><h1>Driving School Safety Measures</h1></mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-panel-description class="HomeContent">
+
+      <div class="DrivingSchoolSafety">
+        <img mat-card-image  class ="image" src="./assets/CaronFire.jpeg">
+
+        <img mat-card-image  class ="image" src="./assets/fire-fighters.jpeg">
+
+        <img mat-card-image  class ="image" src="./assets/firstAid.jpeg">
+
+      </div>
+
+    </mat-panel-description>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel class="Category" >
+    <mat-expansion-panel-header class="HomeContentHeader" >
+      <mat-panel-title><h1>Our Vehicles</h1></mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-panel-description class="HomeContent">
+
+      <div class="DrivingSchoolSafety">
+        <img mat-card-image  class ="image" src="./assets/car.jpeg">
+        <img mat-card-image  class ="image" src="./assets/Truck.jpg">
+        <img mat-card-image  class ="image" src="./assets/BridgesanTruck.jpg">
+
+      </div>
+
+    </mat-panel-description>
+  </mat-expansion-panel>
+
+</mat-accordion>
 </mat-card>
-
-<mat-card class="Category">
-  <mat-card-header class="HomeContentHeader" >
-    <mat-card-title><h1>Driving School Safety Measures</h1></mat-card-title>
-  </mat-card-header>
-
-  <mat-card-content class="HomeContent">
-
-    <div class="DrivingSchoolSafety">
-      <img mat-card-image  class ="image" src="./assets/CaronFire.jpeg">
-
-      <img mat-card-image  class ="image" src="./assets/fire-fighters.jpeg">
-
-      <img mat-card-image  class ="image" src="./assets/firstAid.jpeg">
-
-    </div>
-
-  </mat-card-content>
-  <mat-card-footer></mat-card-footer>
-</mat-card>
-
-<mat-card class="Category">
-  <mat-card-header class="HomeContentHeader" >
-    <mat-card-title><h1>Our Vehicles</h1></mat-card-title>
-  </mat-card-header>
-
-  <mat-card-content class="HomeContent">
-
-    <div class="DrivingSchoolSafety">
-      <img mat-card-image  class ="image" src="./assets/car.jpeg">
-      <img mat-card-image  class ="image" src="./assets/Truck.jpg">
-      <img mat-card-image  class ="image" src="./assets/BridgesanTruck.jpg">
-
-    </div>
-
-  </mat-card-content>
-  <mat-card-footer></mat-card-footer>
-</mat-card>
-
-</mat-card>
+</div>

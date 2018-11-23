@@ -12,9 +12,12 @@
   width: 30%;
   display: inline-block;
 }
-
 .Testimonials{
   width: 100%;
+}
+
+.card{
+  margin-top: 5% ;
 }
 
 .DrivingSchoolCars{
@@ -28,4 +31,6 @@
 .Category{
   margin: 1%;
   height: 30%;
+  background-color: white;
 }
+

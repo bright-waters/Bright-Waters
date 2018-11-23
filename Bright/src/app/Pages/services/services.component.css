@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
+
   }
   .ServiceContentHeader{
     justify-content: center;
@@ -14,9 +14,12 @@
     display: inline-block;
     flex: 1 0 25%;
     margin: 30px;
-   
+
 }
 .ServiceHeader{
     font-family:'Times New Roman', Times, serif;
-   
+
+}
+.card{
+  margin-top: 5%;
 }

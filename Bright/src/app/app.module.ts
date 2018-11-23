@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {MatCardModule, MatTabsModule} from '@angular/material';
+import {MatCardModule, MatExpansionModule, MatTabsModule} from '@angular/material';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './Pages/home/home.component';
 import {ServicesComponent} from "./Pages/services/services.component";
@@ -33,7 +33,8 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserAnimationsModule,
     MatInputModule,
     MatButtonModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

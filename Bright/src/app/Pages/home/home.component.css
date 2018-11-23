@@ -4,20 +4,24 @@
   }
 
   .image{
-    margin: 0.2%;
+    alignment: center;
+    margin-top: 1%;
     width: 100%;
-    height: 50vh;;
+    height: 50vh;
     object-fit: cover;
   }
 
   .HomeContent-card{
     margin: 1%;
-
   }
+
+  .card{
+    margin-top: 5%;
+  }
+
   .HomeContent {
     display: flex;
     justify-content: center;
-   
   }
 
   .HomeContentHeader{
@@ -29,13 +33,10 @@
     margin: 15px;
     display: inline-block;
     border: 4px solid #5A9837;
-    
-  
-
   }
+
   .FeatureHeader{
     font-family:'Times New Roman', Times, serif;
-
   }
 
   .example-card {

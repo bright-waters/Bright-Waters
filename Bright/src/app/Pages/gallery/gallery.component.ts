@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
 
+  showContent : boolean = false;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public  onClickExpansion(){
+    this.showContent = true;
   }
 
 }
