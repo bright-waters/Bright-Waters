@@ -34,6 +34,10 @@
   .MainContent {
     display: flex;
     flex-wrap: wrap;
+  
+  }
+  .MainContact-card{
+    background-color:#C7689C;
   }
   .action{
     display: flex;

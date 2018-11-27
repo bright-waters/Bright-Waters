@@ -28,14 +28,7 @@
 
   left: 0;
 }
-.footer{
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:black;
-  color: white;
-  text-align: center;
-}
+
 .sub__header {
   width: 125%;
   grid-template-columns: 1fr 1fr 0.25fr;
@@ -130,5 +123,17 @@ li a:hover:not(.active) {
   margin-left:5% ;
 }
 
-
-
+.FooterMat-card{
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+ background-color:rgb(73, 73, 73);;
+}
+.Footer-card{
+  display: inline-block;
+  flex-direction: column;
+  height: 80%;
+  vertical-align:text-bottom;
+  background-color: rgb(73, 73, 73);
+color: white
+}

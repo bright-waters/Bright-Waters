@@ -31,11 +31,14 @@
 .Category{
   margin: 1%;
   height: 30%;
-  background-color: #5A9837;
+  background-color:white;
 }
 
 .Category1{
   margin: 1%;
   height: 30%;
   background-color: white;
+}
+.Gallery{
+  background-color:#C7689C;
 }

@@ -2,7 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+   
+  }
+  .ServiceContent-card{
+    background-color:#C7689C;
   }
   .ServiceContentHeader{
     justify-content: center;
