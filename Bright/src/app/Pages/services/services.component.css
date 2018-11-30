@@ -6,6 +6,7 @@
   }
   .ServiceContent-card{
     background-color:#C7689C;
+    justify-content: baseline;
   }
   .ServiceContentHeader{
     justify-content: center;
@@ -13,10 +14,8 @@
 }
 .Service-card{
     border-radius: 20px;
-    border: 4px solid #5A9837;
-    display: inline-block;
-    flex: 1 0 25%;
-    margin: 30px;
+    border: 4px solid #5A9837;  
+    max-width:600px; 
 
 }
 .ServiceHeader{
@@ -25,4 +24,11 @@
 }
 .card{
   margin-top: 5%;
+}
+.Category{
+  margin: 1%;
+  background-color:white;
+}
+.icon{
+  background-size: cover;
 }
